@@ -272,6 +272,7 @@ input, select, textarea {
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			padding-bottom: 1em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			text-align: center;
 		}
 
 	h2 {
@@ -2661,13 +2662,12 @@ input, select, textarea {
 
 	ul.contact {
 		list-style: none;
-		padding: 0;
+		padding-left: 100px;
 	}
 
 		ul.contact li {
 			text-decoration: none;
-			margin: 2.5em 0 0 0;
-			padding: 0 0 0 3.25em;
+			margin: 35px 0 35px 0;
 			position: relative;
 		}
 
@@ -4154,4 +4154,57 @@ input, select, textarea {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
+	}
+
+	.LinkedIn > a > svg {
+		width: 9%;
+		fill: lightgray;
+		
+	}
+
+	.GitHub > a > svg {
+		width: 10%;
+		fill: lightgray;
+	}
+
+	.angelList > a > img {
+		width: 10%;
+	}
+
+	.contact > li {
+		margin-top: -10px;
+	}
+
+	.express > svg {
+		width: 27%;
+		margin-top: -15px;
+		margin-bottom: 15px;
+		fill: lightgray;
+	}
+
+	.gif-1 > img {
+		border-radius: 20px;
+		margin-right: 150px;
+	}
+
+	.gif-2 > img {
+		border-radius: 20px;
+		margin-left: 150px;
+	}
+
+	.gif-3 > img {
+		border-radius: 20px;
+		margin-left: 150px;
+	}
+
+	.mySkills {
+		text-align: center;
+	}
+
+	.image > img {
+		margin: 0 auto;
+	}
+
+	.express > svg {
+		margin-left: 35%;
 	}
