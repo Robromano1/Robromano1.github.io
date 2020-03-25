@@ -175,12 +175,12 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 		color: #ffffff;
 		text-decoration: none;
 	}
 
 		a:hover {
+			border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
 			border-bottom-color: transparent;
 			color: #ffffff !important;
 		}
@@ -248,6 +248,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		width: 400px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3821,7 +3822,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+			
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
@@ -4199,6 +4200,7 @@ input, select, textarea {
 
 	.mySkills {
 		text-align: center;
+		width: 100%;
 	}
 
 	.image > img {
@@ -4207,4 +4209,41 @@ input, select, textarea {
 
 	.express > svg {
 		margin-left: 35%;
+	}
+
+	.projectLinks {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		/* margin-left: -115px; */
+		
+	}
+
+	.liveSite > a {
+		border: 1px solid whitesmoke;
+		padding: 10px 15px 10px 15px;
+		border-radius: 10px;
+	}
+
+	.githubRepo > a {
+		border: 1px solid whitesmoke;
+		padding: 10px 15px 10px 15px;
+		border-radius: 10px;
+	}
+
+	.liveSite > a:hover {
+		/* border: 1px solid rgb(79, 127, 206); */
+		border: 1px solid rgba(46, 49, 65, 0.8)
+	}
+
+	.githubRepo > a:hover {
+		border: 1px solid rgba(46, 49, 65, 0.8)
+	}
+
+	.githubRepo {
+		margin-left: -20px;
+	}
+
+	.aboutMe {
+		width: 100%;
 	}
