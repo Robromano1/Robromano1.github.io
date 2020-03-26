@@ -4168,6 +4168,10 @@ input, select, textarea {
 		fill: lightgray;
 	}
 
+	.angelList > a > svg {
+		width: 11%;
+	}
+
 	.angelList > a > img {
 		width: 10%;
 	}
@@ -4221,23 +4225,23 @@ input, select, textarea {
 
 	.liveSite > a {
 		border: 1px solid whitesmoke;
-		padding: 10px 15px 10px 15px;
-		border-radius: 10px;
+		padding: 10px 20px 10px 20px;
+		border-radius: 30px;
 	}
 
 	.githubRepo > a {
 		border: 1px solid whitesmoke;
-		padding: 10px 15px 10px 15px;
-		border-radius: 10px;
+		padding: 10px 20px 10px 20px;
+		border-radius: 30px;
 	}
 
 	.liveSite > a:hover {
 		/* border: 1px solid rgb(79, 127, 206); */
-		border: 1px solid rgba(46, 49, 65, 0.8)
+		border: 1px solid rgba(46, 49, 65, 0.8);
 	}
 
 	.githubRepo > a:hover {
-		border: 1px solid rgba(46, 49, 65, 0.8)
+		border: 1px solid rgba(46, 49, 65, 0.8);
 	}
 
 	.githubRepo {
@@ -4246,4 +4250,40 @@ input, select, textarea {
 
 	.aboutMe {
 		width: 100%;
+	}
+
+	.field > a {
+		border: 1px solid whitesmoke;
+		padding: 10px 20px 10px 20px;
+		border-radius: 30px;
+	}
+
+	.field > a:hover {
+		border: 1px solid rgb(129, 129, 245);
+	}
+
+	.LinkedIn > a > svg:hover {
+		fill: rgb(129, 129, 245);
+	}
+
+	.GitHub > a > svg:hover {
+		fill: rgb(129, 129, 245);
+	}
+
+	.angelList > a > svg > .path-1:hover {
+		fill: rgb(129, 129, 245);
+	}
+
+	.headshot {
+		width: 30vw;
+		height: 40vh;
+		border-radius: 50%;
+	}
+
+	.backTop {
+		text-decoration: none;
+	}
+
+	.backTop:hover {
+		color: rgb(129, 129, 245);
 	}
