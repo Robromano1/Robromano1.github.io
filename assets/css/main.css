@@ -180,7 +180,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
+			/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */ */
 			border-bottom-color: transparent;
 			color: #ffffff !important;
 		}
@@ -4270,13 +4270,17 @@ input, select, textarea {
 		fill: rgb(129, 129, 245);
 	}
 
-	.angelList > a > svg > .path-1:hover {
+	.angelList > a > svg:hover {
 		fill: rgb(129, 129, 245);
 	}
 
+	.angelList > a > svg {
+		fill: lightgray;
+	}
+
 	.headshot {
-		width: 30vw;
-		height: 40vh;
+		width: 300px;
+		height: 300px;
 		border-radius: 50%;
 	}
 
@@ -4285,5 +4289,6 @@ input, select, textarea {
 	}
 
 	.backTop:hover {
-		color: rgb(129, 129, 245);
+		text-decoration: underline;
+		text-decoration-color: rgb(129, 129, 245);
 	}
